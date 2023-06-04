@@ -1,0 +1,582 @@
+body{
+    margin: 0%;
+    background-color:rgb(249, 248, 249);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    width: 100%;
+    padding: 1.5%;
+    padding-bottom: 1%;
+    box-shadow: 0 0 10px rgb(147, 146, 146);
+    position: fixed;
+    top:0%;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    font-weight: 600;
+    font-size:1.1rem;
+}
+.navbar img{
+    vertical-align: middle;
+    margin-left: 2%;
+    margin-right: 12%;
+}
+.navbar a{
+    margin-left: 2%;
+    text-decoration: none;
+    color: rgb(23, 23, 23);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+}
+#sign{
+    color: white;
+    margin-left: 17% !important;
+    padding: 0.5% 0.1% 0.5% 1%;
+    background-color: rgba(4, 172, 228, 0.787);
+    border-radius: 25px;
+    font-size: 0.9rem;
+
+}
+#sign i{
+    margin-left: 0.5%;
+    border-radius: 50%;
+    padding: 0.4%;
+    font-size: 1.1rem;
+    background-color: navy;
+    
+}
+#sign:hover{
+    background-color: navy;
+
+}
+#sign:hover i{
+    background-color: rgba(4, 172, 228, 0.787);
+} 
+.wallet{
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 1%;
+    padding-top:0.5%;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top:6%;
+}
+.wallet span{
+  font-size:1.5rem;
+}
+.sec2{
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 0% 5% 5%;
+    margin-top: 2%;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.upi{
+    margin-left: 3%;
+}
+#img{
+  box-shadow: 0 0 5px rgb(187, 186, 186);
+  border-radius:25%;
+  max-width: 10%;
+  margin-left: 3%;
+}
+.one{
+    margin-top: 5%;
+    font-size: 60px;
+    margin-left: 3%;
+    font-weight: bold;
+
+}
+.two{
+    font-size: 60px;
+    margin-left: 3%;
+
+}
+.para{
+    font-size: 24px;
+    font-weight: normal;
+    margin-left: 3%;
+    margin-top: 5%;
+    margin-right: 1%;
+
+}
+#app{
+  background-color:black;
+  color:white;
+  border-radius:23px;
+  padding:2%;
+  font-size:1rem;
+  cursor:pointer;
+  text-align: center;
+  margin-left: 4%;
+    margin-top: 6%;
+    width: 38%;
+}
+#app:hover{
+  background-color:white;
+  color:black;
+  border:solid;
+  border-width:1px;
+}
+#app i{
+  margin: 0% 2%;
+}
+#image{
+    margin-left: 18%;
+    max-width: 40%;
+}
+.sec3{
+    background-color: rgb(2, 191, 253);
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-left:5.2%;
+    padding-top:2.5%;
+    padding-bottom: 3%;
+}
+.head3{
+    font-size: 35px;
+    color: white;
+    text-align: left;
+    padding-left: 7%;
+    padding-top: 2%;
+}
+.div3{
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    padding-right: 2%;
+    margin-left: 7%;
+    margin-right: 7%;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    line-height: 30px;
+
+}
+.div3 img{
+  border-radius:50%;
+  background-color:white;
+  padding:2%
+}
+.div3 a{
+    text-decoration: none;
+    color: white;
+    padding: 1%;
+    text-align: justify;
+}
+.sec4{
+    margin-top:0%;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#164172;
+    color: white;
+    text-align: center;
+    padding-left:5.2%;
+    padding-top:2.5%;
+    padding-bottom: 3%;
+}
+.head4{
+    font-size: 35px;
+    color: white;
+    text-align: left;
+    padding-left: 7%;
+    padding-top: 2%;
+
+}
+.div4{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1%;
+    padding-right: 7%;
+    margin-left: 7%;
+    margin-right: 10%;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    line-height: 30px;
+
+}
+.div4 a{
+    text-decoration: none;
+    color: white;
+    padding: 1%;
+    text-align: justify;
+}
+.div3 a:hover{
+  background-color:rgba(4, 172, 228, 0.787);
+}
+.div4 a:hover{
+  background-color:#0d386a;
+}
+.sec5{
+    display:flex;
+    justify-content:center;
+    background-color: white;
+    padding:5% 2% 5%;
+    margin: 2% 9%;
+  }
+  .div5 h1{
+    padding-top:2%;
+    font-size:2.3rem;
+  }
+  .div5{
+    margin:5%;
+  }
+  .div5 p{
+    font-size:1.2rem;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  .h1{
+    margin:7% 9% 2% 9%;
+    font-size:3rem;
+  }
+  .div5 h1{
+    padding-top:2%;
+    font-size:2.4rem;
+  }
+  .app{
+    background-color:black;
+    color:white;
+    border-radius:23px;
+    padding:3%;
+    font-size:1rem;
+    cursor:pointer;
+    text-align: center;
+    margin-left: 4%;
+      margin-top: 6%;
+      width: 30%;
+  }
+  .app:hover{
+    background-color:white;
+    color:black;
+    border:solid;
+    border-width:1px;
+  }
+  .app i{
+    margin: 0% 1%;
+  }
+.sec6{
+    display:flex;
+    justify-content:center;
+    background-color: white;
+    padding:5% 2% 7%;
+    margin: 3% 9%;
+  }
+  .div6{
+    margin-right:2%;
+  }
+  .div6 p{
+    font-size:1.2rem;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  .div6 h1{
+    padding-top:2%;
+    font-size:2.4rem;
+  }
+  
+.sec7{
+    display:flex;
+    justify-content:center;
+    background-color: white;
+    padding:5% 2% 7%;
+    margin: 3% 9%;
+  }
+  .div7{
+    margin:5%;
+  }
+  .div7 h1{
+    padding-top:2%;
+    font-size:2.4rem;
+  }
+  .div7 p{
+    font-size:1.2rem;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  .learn{
+    text-decoration:none;
+    color:white;
+    background-color:rgb(1, 1, 110);
+    border-radius:25px;
+    padding:2% 4%;
+    font-size:1.2rem;
+    font-weight:500;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  .learn:after{
+    content:"  >";
+  }
+  .learn:hover{
+    background-color:rgb(2, 191, 253);
+  }
+  .learn:hover:after{
+    content: " ->";
+  }
+  .sec8{
+    display:flex;
+    justify-content: space-between;
+  }
+  .sec8 h1{
+    font-size:2.7rem;
+  }
+  .sec8 p{
+    font-size:1.3rem;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  .div8{
+    background-color:white;
+    margin:3% 1.5% 6% 9%;
+    align-items: center;
+    padding:3% 3% 0% 5%;
+  }
+  .div9{
+    padding:7% 3% 0% 5%;
+    background-color:white;
+    margin:3% 9% 6% 1.5%;
+  }
+  
+  .sec9{
+    background-color:white;
+    display:flex;
+    justify-content:center;
+    padding-bottom:7%;
+  }
+  .div10{
+    padding-right:20%;
+  }
+  .div10 h1{
+    font-size:2.7rem;
+  }
+  .div10 p{
+    font-size:1.3rem;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  .sec10{
+    padding:5% 5% 8% 5%;
+    display:flex;
+    justify-content:center;
+    background-image:url('images/33.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  .div11 h1{
+    font-size:2.7rem;
+  }
+  .div11 p{
+    font-size:1.3rem;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  .div11{
+    padding-left:15%;
+    padding-right:5%;
+  }
+  .sec11{
+    margin-top:0%;
+    padding:6%;
+    display: flex;
+    justify-content:center;
+    background-color:white;
+  }
+  .div12{
+    margin:5%;
+  }
+  .div12 h1{
+    padding-top:2%;
+    font-size:2.4rem;
+  }
+  .div12 p{
+    font-size:1.2rem;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  .sec12{
+    display:flex;
+    justify-content:center;
+    padding:5%;
+  }
+  .div13{
+    padding:4% 5% 2% 16%
+  }
+  .div13 h1{
+    font-size:2.7rem;
+  }
+  .div13 p{
+    font-size:1.3rem;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  .sec13{
+    margin-top:0%;
+    background-color:white;
+  }
+  .div14{
+    display:flex;
+    justify-content:space-between;
+    background-color:rgb(249, 248, 249);
+    margin: 0% 9% 0% 9%;
+    padding:5% 0%;
+  }
+  .div15{
+    padding:6% 8% 6% 10%;
+  }
+  .div15 h1{
+    font-size:2.4rem;
+  }
+  .div15 p{
+    font-size:1.2rem;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  .div16{
+    padding:3% 8% 3% 10%;
+  }
+  .div16 h1{
+    font-size:2.4rem;
+  }
+  .div16 p{
+    font-size:1.2rem;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  
+.sec14{
+    display:flex;
+    justify-content: space-evenly;
+    background-color:white;
+    padding:5% 9%;
+  }
+  .sec14 h1{
+    font-size:1.7rem;
+  }
+  .sec14 p{
+    font-size:1.2rem;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  .sec14 b{
+    font-size:1rem;
+  }
+  .sec15{
+    display:flex;
+    justify-content:space-between;
+    background-color:white;
+    padding-left:9%;
+    padding-top:15%;
+  }
+  .div18{
+    display:flex;
+    justify-content:space-between;
+  }
+  .div18 a{
+    background-color:rgb(123, 216, 247);
+    text-decoration:none;
+    text-align:center;
+    margin-right:10%;
+    padding: 0.6% 0.6% 0% 0.6%;
+    color:white;
+    border-radius:10px;
+  }
+  
+  .div18 a:hover{
+    background-color:rgb(2, 191, 253)
+  }
+  .div17{
+    padding-left:5%;
+    padding-right:3%;
+  }
+  .div17 p{
+    font-size:1.1rem;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top:10%;
+  }
+  .lm{
+    text-decoration:none;
+    color:rgb(2, 191, 253);
+  }
+  .lm:hover{
+    color:rgb(1, 1, 110);
+  }
+  .sec16{
+    display:flex;
+    padding-top: 8%;
+    justify-content:space-between;
+    background-color:white;
+    padding-left:9%;
+    padding-bottom: 10%;
+  }
+  .div20{
+    display:flex;
+    justify-content:space-evenly;
+  }
+  .div20 a{
+    background-color:rgb(75, 210, 255);
+    text-decoration:none;
+    text-align:left;
+    margin-right:1%;
+    padding: 70px 35px 35px;
+    color:white;
+    border-radius:10px;
+  }
+  
+  .div20 a:hover{
+    background-color:rgb(2, 191, 253)
+  }
+  .div20 span{
+    margin-top:2%;
+    font-size:1.3rem;
+  }
+  .div20 p{
+    font-size:0.8rem;
+  }
+  .div19{
+    padding-top:2%;
+  padding-left:6%;
+  padding-right:2%;
+  }
+  .div19 p{
+    font-size:1.1rem;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top:10%;
+  }
+  .div21 h3{
+    padding-top:5%;
+    padding-left:6%;
+    padding-right:2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+  }
+  .div21{
+    display:flex;
+  }
+  .div21 a{
+    padding-top:6%;
+    padding-right:1%;
+  }
+  .div21 div{
+    display:flex;
+    padding-top:6.5%;
+    padding-left:30%;
+    font-size:1.5rem;
+  
+  }
+  .div21 div a{
+    color:grey;
+    padding-left:70%;
+  }
+  .line{
+    padding:0% 40.1%;
+    border-width:1px;
+    border-color:rgba(0,0,0,0.4);
+    border-bottom-style:solid;
+    margin-left:1%;
+  }
+  .div22{
+    padding:6% 2% 10% 5%;
+  }
+  .l1{
+    margin:0%;
+    padding:0.5%;
+    background-color:rgb(2, 191, 253);
+  }
+  .l2{
+    margin:0%;
+    padding:0.5%;
+    background-color:rgb(1, 1, 110);
+  }
